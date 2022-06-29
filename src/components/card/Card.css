@@ -1,16 +1,24 @@
 .card {
   color:black;
   font-size: 2rem;
-  width:300px;
-  height:200px;
+  width:250px;
+  height:180px;
   background-color: rgba(255,255,255,.8);
+ 
+  cursor: pointer;
   border-radius: 1rem;
 }
 .top img {
   height: 90px;
   margin-top: 1rem;
+  transition:transform 0.3s ease-in-out;
 }
 .top p {
-  margin-top: .5rem;
+  margin-top: .3rem;
   font-weight: 500;
+}
+.card:hover {
+  cursor: pointer;
+
+  box-shadow: 0 0 9px 2px #2b24b2;
 }

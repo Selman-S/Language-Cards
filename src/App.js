@@ -15,7 +15,7 @@ function App() {
 
       {languages.map((item, i) => {
         return (<>
-         <Card key={i} {...item} />   
+         <Card key={i} card={item} />   
           </>
          )
         })}
