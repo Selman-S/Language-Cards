@@ -1,0 +1,41 @@
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;flex-direction: column;
+}
+.container>img {
+  width: 300px;
+}
+
+.content {
+  background-color: #F38A29;
+  width: 700px;
+
+  margin-top: 3rem;
+  border-radius:1rem;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color:white;
+  z-index: -1;
+  
+}
+.content-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  
+}
+
+.blueStripe {
+width: 200%;
+  height: 100px;
+  background-color: #54C0DD;
+  transform: rotate(45deg);
+  top: 47%;
+  z-index: -1;
+ 
+  left: -50%;
+  position: absolute;
+}
