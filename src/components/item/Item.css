@@ -7,3 +7,33 @@
   margin-top: .3rem;
   font-weight: 500;
 }
+.card ul {
+  margin-top: 2rem;
+  transition: all .3s ease;
+  font-size: 1.3rem;
+
+}
+.card li {
+  text-align:start;
+}
+
+
+.card {
+  color:black;
+  font-size: 2rem;
+  width:250px;
+  height:180px;
+  background-color: rgba(255,255,255,.8);
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.card:hover {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+  box-shadow: 0 0 9px 2px #2b24b2;
+}
+.card:hover  img {
+  transform: scale(1.2);
+}
