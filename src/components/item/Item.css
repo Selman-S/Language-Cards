@@ -1,0 +1,9 @@
+.card img {
+  height: 90px;
+  margin-top: 1rem;
+  transition:transform 0.3s ease-in-out;
+}
+.card h5 {
+  margin-top: .3rem;
+  font-weight: 500;
+}

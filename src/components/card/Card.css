@@ -8,17 +8,41 @@
   cursor: pointer;
   border-radius: 1rem;
 }
-.top img {
-  height: 90px;
-  margin-top: 1rem;
-  transition:transform 0.3s ease-in-out;
-}
-.top p {
-  margin-top: .3rem;
-  font-weight: 500;
-}
+
 .card:hover {
   cursor: pointer;
 
   box-shadow: 0 0 9px 2px #2b24b2;
 }
+.card-container {
+ background-color: #F38A29;
+  width: 700px;
+
+  margin-top: 3rem;
+  border-radius:1rem;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color:white;
+  z-index: -1;
+}
+.stripped {
+  width: 200%;
+  height: 100px;
+  background-color: #54C0DD;
+  transform: rotate(45deg);
+  top: 47%;
+  z-index: -1;
+ 
+  left: -50%;
+  position: absolute;
+}
+
+.cards-contain {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 2rem;
+}
+
